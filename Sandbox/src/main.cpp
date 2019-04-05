@@ -1,8 +1,21 @@
-namespace Crown {
-	__declspec(dllimport) void Print();
-}
+#include <Crown.h>
 
-void main()
+class Sandbox : public Crown::Application
 {
-	Crown::Print();
+public:
+	Sandbox()
+	{
+
+	}
+
+	~Sandbox()
+	{
+
+	}
+
+};
+
+Crown::Application* Crown::CreateApplication()
+{
+	return new Sandbox();
 }
