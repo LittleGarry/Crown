@@ -6,6 +6,11 @@ extern Crown::Application* Crown::CreateApplication();
 
 int main(int argc, char** argv)
 {
+	Crown::Log::Init();
+
+	CW_CORE_TRACE("Core");
+	CW_CLIENT_INFO("Client");
+
 	auto app = Crown::CreateApplication();
 	app->Run();
 
