@@ -103,7 +103,10 @@
     <ClInclude Include="src\Crown\Application.h" />
     <ClInclude Include="src\Crown\Core.h" />
     <ClInclude Include="src\Crown\EntryPoint.h" />
-    <ClInclude Include="src\Crown\Events\Events.h" />
+    <ClInclude Include="src\Crown\Events\Event.h" />
+    <ClInclude Include="src\Crown\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Crown\Events\KeyEvent.h" />
+    <ClInclude Include="src\Crown\Events\MouseEvent.h" />
     <ClInclude Include="src\Crown\Log.h" />
   </ItemGroup>
   <ItemGroup>

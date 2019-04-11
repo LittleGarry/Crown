@@ -19,7 +19,10 @@
     <ClInclude Include="src\Crown\Log.h">
       <Filter>Crown</Filter>
     </ClInclude>
-    <ClInclude Include="src\Crown\Events\Events.h" />
+    <ClInclude Include="src\Crown\Events\KeyEvent.h" />
+    <ClInclude Include="src\Crown\Events\MouseEvent.h" />
+    <ClInclude Include="src\Crown\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Crown\Events\Event.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Crown\Application.cpp">
