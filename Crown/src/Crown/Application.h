@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core.h"
+#include "Events/Events.h"
 
 namespace Crown {
 
@@ -13,6 +14,6 @@ namespace Crown {
 		void Run();
 	};
 
-	// To be defined in client
+	// To be defined in CLIENT
 	Application* CreateApplication();
 }
