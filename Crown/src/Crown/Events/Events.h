@@ -40,7 +40,7 @@ namespace Crown {
 
 		inline bool IsInCategory(EventCategory category)
 		{
-			return GetEventCategory() & category;
+			return GetCategoryFlags() & category;
 		}
 
 	protected:
