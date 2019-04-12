@@ -1,5 +1,7 @@
 #include "Application.h"
 
+#include "Log.h"
+
 namespace Crown {
 
 	Application::Application()

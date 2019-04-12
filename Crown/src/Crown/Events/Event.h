@@ -3,6 +3,7 @@
 #include "Crown/Core.h"
 
 #include <string>
+#include <functional>
 
 namespace Crown {
 
@@ -48,4 +49,8 @@ namespace Crown {
 		bool m_Handled = false;
 	};
 
+	inline std::ostream& operator<<(std::ostream& os, const Event& e)
+	{
+		return os << e.ToString();
+	}
 }
