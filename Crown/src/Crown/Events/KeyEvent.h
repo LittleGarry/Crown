@@ -36,7 +36,7 @@ namespace Crown {
 		}
 
 		EVENT_CLASS_TYPE(KeyPressed)
-	protected:
+	private:
 		int m_RepeatCount;
 	};
 

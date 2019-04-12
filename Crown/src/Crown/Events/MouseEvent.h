@@ -25,16 +25,31 @@ namespace Crown {
 
 		EVENT_CLASS_TYPE(MouseMoved)
 		EVENT_CLASS_CATEGORY(EventCategoryInput | EventCategoryMouse)
-	protected:
+	private:
 		float m_MouseX, m_MouseY;
 	};
 
 	class CROWN_API MouseScrolledEvent : public Event
 	{
 	public:
+		MouseScrolledEvent(float xOffset, float yOffset)
+			: m_XOffset(xOffset), m_YOffset(yOffset) {}
+
+		inline float GetXOffset() { return m_XOffset; }
+		inline float GetYOffset() { return m_YOffset; }
+
+		std::string ToString() const override
+		{
+			std::stringstream ss;
+			ss << "MouseScrolledEvent: " << m_XOffset << ", " << m_YOffset;
+
+			return ss.str();
+		}
+
 		EVENT_CLASS_TYPE(MouseScrolled)
 		EVENT_CLASS_CATEGORY(EventCategoryInput | EventCategoryMouse)
-	protected:
+	private:
+		float m_XOffset, m_YOffset;
 	};
 
 	class CROWN_API MouseButtonEvent : public Event
@@ -48,13 +63,13 @@ namespace Crown {
 	{
 	public:
 		EVENT_CLASS_TYPE(MouseButtonPressed)
-	protected:
+	private:
 	};
 
 	class CROWN_API MouseButtonReleasedEvent : public MouseButtonEvent
 	{
 	public:
 		EVENT_CLASS_TYPE(MouseButtonReleased)
-	protected:
+	private:
 	};
 }
