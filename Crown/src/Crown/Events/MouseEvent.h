@@ -55,8 +55,14 @@ namespace Crown {
 	class CROWN_API MouseButtonEvent : public Event
 	{
 	public:
-		EVENT_CLASS_CATEGORY(EventCategoryInput | EventCategoryMouseButton)
+		inline int GetMouseButton() { return m_Button; }
+
+		EVENT_CLASS_CATEGORY(EventCategoryInput | EventCategoryMouse)
 	protected:
+		MouseButtonEvent(int button)
+			: m_Button(button) {}
+
+		int m_Button;
 	};
 
 	class CROWN_API MouseButtonPressedEvent : public MouseButtonEvent
