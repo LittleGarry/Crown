@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Crown {
 
 	class CROWN_API MouseMovedEvent : public Event

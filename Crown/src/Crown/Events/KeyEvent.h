@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Crown {
 
 	class CROWN_API KeyEvent : public Event

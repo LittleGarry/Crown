@@ -2,9 +2,6 @@
 
 #include "Crown/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Crown {
 
 	enum class EventType

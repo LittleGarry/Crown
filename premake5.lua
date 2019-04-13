@@ -17,6 +17,9 @@ project "Crown"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "cwpch.h"
+	pchsource "Crown/src/cwpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

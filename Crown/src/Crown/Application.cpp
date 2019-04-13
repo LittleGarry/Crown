@@ -1,6 +1,8 @@
+#include "cwpch.h"
 #include "Application.h"
 
-#include "Log.h"
+#include "Crown/Events/ApplicationEvent.h"
+#include "Crown/Log.h"
 
 namespace Crown {
 

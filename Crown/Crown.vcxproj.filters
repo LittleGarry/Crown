@@ -4,6 +4,9 @@
     <Filter Include="Crown">
       <UniqueIdentifier>{0ED5FB0C-7AE9-23BE-436B-C71DAF3E20EF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Crown\Events">
+      <UniqueIdentifier>{3285C9C1-1EE8-5866-C76D-911CB3AF24E9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Crown.h" />
@@ -16,13 +19,22 @@
     <ClInclude Include="src\Crown\EntryPoint.h">
       <Filter>Crown</Filter>
     </ClInclude>
+    <ClInclude Include="src\Crown\Events\ApplicationEvent.h">
+      <Filter>Crown\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Crown\Events\Event.h">
+      <Filter>Crown\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Crown\Events\KeyEvent.h">
+      <Filter>Crown\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Crown\Events\MouseEvent.h">
+      <Filter>Crown\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Crown\Log.h">
       <Filter>Crown</Filter>
     </ClInclude>
-    <ClInclude Include="src\Crown\Events\KeyEvent.h" />
-    <ClInclude Include="src\Crown\Events\MouseEvent.h" />
-    <ClInclude Include="src\Crown\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\Crown\Events\Event.h" />
+    <ClInclude Include="src\cwpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Crown\Application.cpp">
@@ -31,5 +43,6 @@
     <ClCompile Include="src\Crown\Log.cpp">
       <Filter>Crown</Filter>
     </ClCompile>
+    <ClCompile Include="src\cwpch.cpp" />
   </ItemGroup>
 </Project>
