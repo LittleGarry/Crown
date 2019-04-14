@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Crown/Core.h"
+#include "cwpch.h"
 
 namespace Crown {
 

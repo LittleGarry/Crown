@@ -2,7 +2,6 @@
 #include "Application.h"
 
 #include "Crown/Events/ApplicationEvent.h"
-#include "Crown/Log.h"
 
 namespace Crown {
 
