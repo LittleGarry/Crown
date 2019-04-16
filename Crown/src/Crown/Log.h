@@ -27,7 +27,7 @@ namespace Crown {
 #define CW_CORE_ERROR(...)		::Crown::Log::GetCoreLogger()->error(__VA_ARGS__)
 
 // Client log macros
-#define CW_CLIENT_TRACE(...)	::Crown::Log::GetClientLogger()->trace(__VA_ARGS__)
-#define CW_CLIENT_INFO(...)		::Crown::Log::GetClientLogger()->info(__VA_ARGS__)
-#define CW_CLIENT_WARN(...)		::Crown::Log::GetClientLogger()->warn(__VA_ARGS__)
-#define CW_CLIENT_ERROR(...)	::Crown::Log::GetClientLogger()->error(__VA_ARGS__)
+#define CW_TRACE(...)			::Crown::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define CW_INFO(...)			::Crown::Log::GetClientLogger()->info(__VA_ARGS__)
+#define CW_WARN(...)			::Crown::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define CW_ERROR(...)			::Crown::Log::GetClientLogger()->error(__VA_ARGS__)
