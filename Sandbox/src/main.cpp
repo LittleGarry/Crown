@@ -15,6 +15,7 @@ public:
 
 };
 
+
 Crown::Application* Crown::CreateApplication()
 {
 	return new Sandbox();

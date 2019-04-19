@@ -14,6 +14,7 @@ namespace Crown {
 		CW_CORE_ERROR("GLFW Error({0}): {1}", error, description);
 	}
 
+
 	Window* Window::Create(const WindowProps& props)
 	{
 		return new WindowsWindow(props);
@@ -149,6 +150,7 @@ namespace Crown {
 		glfwPollEvents();
 		glfwSwapBuffers(m_Window);
 	}
+
 
 	void WindowsWindow::SetVSync(bool enabled)
 	{
