@@ -62,5 +62,8 @@
       <Filter>Crown\Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\cwpch.cpp" />
+    <ClCompile Include="Layer.cpp">
+      <Filter>Crown</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

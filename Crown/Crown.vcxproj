@@ -118,6 +118,7 @@
     <ClInclude Include="src\cwpch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Layer.cpp" />
     <ClCompile Include="src\Crown\Application.cpp" />
     <ClCompile Include="src\Crown\Log.cpp" />
     <ClCompile Include="src\Crown\Platform\Windows\WindowsWindow.cpp" />
