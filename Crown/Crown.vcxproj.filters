@@ -47,6 +47,9 @@
       <Filter>Crown</Filter>
     </ClInclude>
     <ClInclude Include="src\cwpch.h" />
+    <ClInclude Include="Layer.h">
+      <Filter>Crown</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Crown\Application.cpp">
