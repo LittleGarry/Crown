@@ -103,7 +103,8 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Layer.h" />
+    <ClInclude Include="src\Crown\LayerStack.h" />
+    <ClInclude Include="src\Crown\Layer.h" />
     <ClInclude Include="src\Crown.h" />
     <ClInclude Include="src\Crown\Application.h" />
     <ClInclude Include="src\Crown\Core.h" />
@@ -118,7 +119,8 @@
     <ClInclude Include="src\cwpch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Layer.cpp" />
+    <ClCompile Include="src\Crown\LayerStack.cpp" />
+    <ClCompile Include="src\Crown\Layer.cpp" />
     <ClCompile Include="src\Crown\Application.cpp" />
     <ClCompile Include="src\Crown\Log.cpp" />
     <ClCompile Include="src\Crown\Platform\Windows\WindowsWindow.cpp" />

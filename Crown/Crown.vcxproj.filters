@@ -47,9 +47,10 @@
       <Filter>Crown</Filter>
     </ClInclude>
     <ClInclude Include="src\cwpch.h" />
-    <ClInclude Include="Layer.h">
+    <ClInclude Include="src\Crown\Layer.h">
       <Filter>Crown</Filter>
     </ClInclude>
+    <ClInclude Include="src\Crown\LayerStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Crown\Application.cpp">
@@ -62,8 +63,9 @@
       <Filter>Crown\Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\cwpch.cpp" />
-    <ClCompile Include="Layer.cpp">
+    <ClCompile Include="src\Crown\Layer.cpp">
       <Filter>Crown</Filter>
     </ClCompile>
+    <ClCompile Include="src\Crown\LayerStack.cpp" />
   </ItemGroup>
 </Project>
