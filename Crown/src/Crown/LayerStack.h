@@ -8,7 +8,7 @@ namespace Crown {
 	{
 	public:
 		LayerStack();
-		virtual ~LayerStack();
+		~LayerStack();
 
 		void PushLayer(Layer* layer);
 		void PushOverlay(Layer* overlay);

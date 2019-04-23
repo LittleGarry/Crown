@@ -64,10 +64,12 @@ project "Crown"
 
 	filter "configurations:Debug"
 		defines "CW_DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 	
 	filter "configurations:Release"
 		defines "CW_RELEASE"
+		buildoptions "/MD"
 		optimize "On"
 
 project "Sandbox"
@@ -107,8 +109,10 @@ project "Sandbox"
 	
 	filter "configurations:Debug"
 		defines "CW_DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 	
 	filter "configurations:Release"
 		defines "CW_RELEASE"
+		buildoptions "/MD"
 		optimize "On"
